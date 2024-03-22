@@ -16,9 +16,9 @@ public class ZombieMove : MonoBehaviour
     {
         System.Random rnd = new System.Random(seed);
 
-        float rdmX = (float)rnd.Next(-10, 10);
+        float rdmX = (float)rnd.Next(-8, 5);
         Rdmx = rdmX;
-        float rdmZ = (float)rnd.Next(-10, 10);
+        float rdmZ = (float)rnd.Next(-15, -12);
         Rdmz = rdmZ;
 
         float y = transform.position.y;

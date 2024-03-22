@@ -22,19 +22,19 @@ public class MoveCamera : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
-            transform.Translate(0, 0, 0.1f);
+            transform.Translate(0, 0, 1f);
         }
         if (Input.GetKeyDown(KeyCode.DownArrow))
         {
-            transform.Translate(0, 0, -0.1f);
+            transform.Translate(0, 0, -1f);
         }
         if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
-            transform.Translate(-0.1f, 0, 0);
+            transform.Translate(-1f, 0, 0);
         }
         if (Input.GetKeyDown(KeyCode.RightArrow))
         {
-            transform.Translate(0.1f, 0, 0);
+            transform.Translate(1f, 0, 0);
         }
         if (Input.GetKeyDown(KeyCode.Space))
         {
